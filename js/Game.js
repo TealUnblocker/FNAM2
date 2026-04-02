@@ -539,11 +539,11 @@ class Game {
         if (type === 'night2') {
             // Night 2 教程：Trump
             tutorialContent.innerHTML = `
-                <h2>DEFEND YOURSELF AGAINST NIALL</h2>
+                <h2>DEFEND YOURSELF AGAINST MIKEY</h2>
                 <p>
-                    NIALL WILL TRY TO ATTACK YOU THROUGH THE VENTS IN CAM 1 AND CAM 2, SO IF YOU HEAR BANGING IN THE VENTS HEAD OVER TO THE CONTROL PANEL AND CLOSE THEM. 
+                    MIKEY WILL TRY TO ATTACK YOU THROUGH THE VENTS IN CAM 1 AND CAM 2, SO IF YOU HEAR BANGING IN THE VENTS HEAD OVER TO THE CONTROL PANEL AND CLOSE THEM. 
                     AFTER CLOSING THEM YOU WILL HEAR BANGING AGAIN AFTER A FEW SECONDS WHICH MEANS HE LEFT THE VENTS. YOU MUST OPEN THE VENTS OTHERWISE YOU WILL DIE FROM LACK OF OXYGEN. 
-                    NIALL CAN BE LURED WITH THE AUDIOS BUT YOUR MAIN PRIORITY WITH THE AUDIO LURES SHOULD BE MICHAEL.
+                    MIKEY CAN BE LURED WITH THE AUDIOS BUT YOUR MAIN PRIORITY WITH THE AUDIO LURES SHOULD BE MICHAEL.
                 </p>
                 <button id="tutorial-got-it">GOT IT</button>
             `;
@@ -617,7 +617,7 @@ class Game {
         
         // 创建金色霍金图片
         const goldenImg = document.createElement('img');
-        goldenImg.src = '/FNAE-HTML5-1.2.2-fix/assets/images/goldenstephen.png';
+        goldenImg.src = 'assets/images/goldenstephen.png';
         goldenImg.style.position = 'absolute';
         goldenImg.style.top = '50%';
         goldenImg.style.left = '50%';
@@ -996,7 +996,7 @@ class Game {
                         
                         // 创建胜利画面
                         const winScreen = document.createElement('img');
-                        winScreen.src = '/FNAE-HTML5-1.2.2-fix/assets/images/winscreen.png';
+                        winScreen.src = 'assets/images/winscreen.png';
                         winScreen.style.width = '100%';
                         winScreen.style.height = '100%';
                         winScreen.style.objectFit = 'contain';
@@ -1084,7 +1084,7 @@ class Game {
                 
                 // 创建night6.png图片
                 const night6Image = document.createElement('img');
-                night6Image.src = '/FNAE-HTML5-1.2.2-fix/assets/images/night6.png';
+                night6Image.src = 'assets/images/winscreen.png';
                 night6Image.style.width = '100%';
                 night6Image.style.height = '100%';
                 night6Image.style.objectFit = 'contain';
